@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/header"
+function App(){
+    // const title="first app"
+    // const msg="Hello world"
+    // const li=[
+    //     {id:1,text:"first id"},
+    //     {id:2,text:"second id"},
+    //     {id:3,text:"third id"}
+    // ]
+    // const showcomments=true
+    // const commetBlock=(<div>
+    //     <h3>Commnets ({li.length})</h3>
+    //     <ul>
+    //         {
+    //             li.map((l,index)=><li key={index}>{l.text}</li>)
+    //         }
+    //     </ul>
+    //     </div>)
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    // *****this is go inside return
+    // <h1>{title}</h1> 
+    //     <p>{msg}</p>
+    //     {showcomments&& commetBlock}
+    return(
+        <>
+        
+           <Header />
+        
+        </>
+    )
 }
 
-export default App;
+export default App
